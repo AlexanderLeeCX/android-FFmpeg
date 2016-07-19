@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/decode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mp4转yuv" />
+
+    <Button
+        android:id="@+id/encode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yuv转jpeg" />
+
+    <Button
+        android:id="@+id/audio_pcm_aac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pcm转aac" />
+
+    <Button
+        android:id="@+id/video_yuv_h264"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yuv转h264" />
+
+    <Button
+        android:id="@+id/video_mp4_mkv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ts转avi" />
+
+    <Button
+        android:id="@+id/merge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="合并mp4" />
+
+    <Button
+        android:id="@+id/remuder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="无编解码转码" />
+
+</LinearLayout>
